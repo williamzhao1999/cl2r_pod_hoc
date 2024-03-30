@@ -1,0 +1,11 @@
+root_folder: ./
+epochs: 1
+stages:
+- 49
+- 64
+batch_size: 128
+
+criterion_weight_base: 1
+spatial_lambda_c_base: 3
+rehearsal: 20
+cuda_device: "cuda:1"
